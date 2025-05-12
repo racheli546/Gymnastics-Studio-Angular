@@ -1,1 +1,6 @@
-<p>lesson-list works!</p>
+<div class="gallery-grid">
+  <app-lesson-details
+    *ngFor="let lesson of gymLessons"
+    [Lesson]="lesson">
+  </app-lesson-details>
+</div>

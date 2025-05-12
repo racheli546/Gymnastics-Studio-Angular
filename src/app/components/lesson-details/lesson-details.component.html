@@ -1,1 +1,17 @@
-<p>lesson-details works!</p>
+
+<mat-card class="lesson-card" [ngClass]="getCardClass()">
+
+  <mat-card-header>
+    <mat-card-title>{{ Lesson.lessonName }}</mat-card-title>
+    <mat-card-subtitle>{{ Lesson.teacherName }}</mat-card-subtitle>
+  </mat-card-header>
+
+  <mat-card-content>
+    <p><strong>מספר מפגשים:</strong> {{ Lesson.NumberSessions }}</p>
+    <p [ngStyle]="{ color: hasLessonStarted(Lesson) ? 'red' : 'black' }"><strong>תאריך התחלה:</strong> {{ Lesson.StartDate  }}</p>
+    <p><strong>מחיר:</strong> {{ Lesson.price }} ₪</p>
+    <p><strong>יום:</strong> {{ Lesson.day }}</p>
+    <p><strong>שעה:</strong> {{ Lesson.lessonTime }}</p>
+  </mat-card-content>
+</mat-card>
+
