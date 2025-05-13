@@ -1,12 +1,16 @@
 import { NgIf } from '@angular/common';
 import { Component, NgModule } from '@angular/core';
-import { FormControl, NgModel, ReactiveFormsModule, Validators, FormGroup, FormBuilder } from '@angular/forms';
+import { FormControl, NgModel, ReactiveFormsModule, Validators, FormGroup, FormBuilder, FormsModule } from '@angular/forms';
 import { UsersService } from '../../services/users.service';
 // import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatButton } from '@angular/material/button';
+import { MatTooltip } from '@angular/material/tooltip';
 @Component({
   selector: 'app-login',
-  imports: [ReactiveFormsModule, NgIf],
+  imports: [ReactiveFormsModule, NgIf,FormsModule,MatFormFieldModule,MatInputModule,MatButton,MatTooltip],
   standalone: true,
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'

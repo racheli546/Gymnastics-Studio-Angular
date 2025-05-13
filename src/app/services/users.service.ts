@@ -8,7 +8,7 @@ export class UsersService {
     {password: '123456', email: 'user@example.com', name: 'John Doe', role:'Teacher'},
     {password: '123456', email: 'user2@example.com', name: 'Jane Smith', role:'Secretary'},
     {password: '123456', email: 'user3@example.com', name: 'Bob Johnson', role:'Teacher'},
-    {password: '123456', email: 'user4@example.com', name: 'Alice Williams', role:'Administrator'},
+    {password: '123456', email: 'user4@example.com', name: 'Alice Williams', role:'Secretary'},
   ]
   constructor() { }
   getUserData() {
