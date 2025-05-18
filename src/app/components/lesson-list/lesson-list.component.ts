@@ -10,7 +10,6 @@ import { LessonDetailsComponent } from "../lesson-details/lesson-details.compone
 })
 export class LessonListComponent {
   gymLessons = [
-    // חוגים עתידיים
     {
       lessonName: "Beast Mode Bootcamp",
       teacherName: "Nadav Blitz",
@@ -66,7 +65,6 @@ export class LessonListComponent {
       lessonTime: "10:00"
     },
 
-    // חוגים שכבר עברו
     {
       lessonName: "Back to Basics",
       teacherName: "Moti Dror",

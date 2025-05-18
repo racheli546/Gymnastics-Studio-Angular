@@ -3,3 +3,7 @@ ag-grid-angular {
   width: 100%;
   display: block;
 }
+.unpaid-row {
+  background-color: #e48c8c !important; /* רקע אדום בהיר */
+  font-weight: bold;
+}

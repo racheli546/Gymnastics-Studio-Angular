@@ -37,11 +37,5 @@ export class LessonDetailsComponent {
     return lesson.StartDate < now;
   }
 
-  // @Input() lessonName: string = '';
-  // @Input() teacherName: string = '';
-  // @Input() NumberSessions: number = 0;
-  // @Input() StartDate: string = '';
-  // @Input() price: number = 0;
-  // @Input() day: string = '';
-  // @Input() lessonTime: string = '';
+
 }
