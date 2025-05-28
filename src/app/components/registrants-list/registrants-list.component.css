@@ -1,9 +1,6 @@
 ag-grid-angular {
-  height: 500px; /* או כל גובה אחר שתרצה */
+  height: 500px;
   width: 100%;
   display: block;
 }
-.unpaid-row {
-  background-color: #e48c8c !important; /* רקע אדום בהיר */
-  font-weight: bold;
-}
+
